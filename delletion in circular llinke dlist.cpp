@@ -117,7 +117,8 @@ main()
 	printf("enter the node data: \n");
 	scanf("%d",&temp->data);
 	temp->link=root;
-	root=temp;	
+	root=temp;
+	tail->link=root;
 	}
 	else 
 	{
